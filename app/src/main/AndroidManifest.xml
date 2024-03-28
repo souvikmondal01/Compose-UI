@@ -13,7 +13,22 @@
         android:theme="@style/Theme.ComposeUI"
         tools:targetApi="31">
         <activity
-            android:name=".ui.theme.pizza_app_ui.PizzaAppActivity"
+            android:name=".onboarding_screen_ui.OnboardingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_onboarding"
+            android:theme="@style/Theme.ComposeUI" />
+        <activity
+            android:name=".banking_app_ui.BankingAppUIActivity"
+            android:exported="false"
+            android:label="@string/title_activity_banking_app_uiactivity"
+            android:theme="@style/Theme.ComposeUI" />
+        <activity
+            android:name=".recipes_app_ui.RecipeUIActivity"
+            android:exported="false"
+            android:label="@string/title_activity_recipe_uiactivity"
+            android:theme="@style/Theme.ComposeUI" />
+        <activity
+            android:name=".pizza_app_ui.PizzaAppActivity"
             android:exported="false"
             android:label="@string/title_activity_pizza_app"
             android:theme="@style/Theme.ComposeUI" />

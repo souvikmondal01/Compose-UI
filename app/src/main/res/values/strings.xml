@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Compose UI</string>
     <string name="title_activity_pizza_app">PizzaAppActivity</string>
+    <string name="title_activity_recipe_uiactivity">RecipeUIActivity</string>
+    <string name="title_activity_banking_app_uiactivity">BankingAppUIActivity</string>
+    <string name="title_activity_onboarding">OnboardingActivity</string>
 </resources>
